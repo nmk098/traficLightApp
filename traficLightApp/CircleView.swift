@@ -13,7 +13,7 @@ struct CircleView: View {
     let opacity: Double
     var body: some View {
        Circle()
-            .frame(width: 150)
+            .frame(width: 100)
             .foregroundColor(color)
             .overlay(Circle().stroke(Color.white, lineWidth: 3))
             .shadow(radius: 20)
